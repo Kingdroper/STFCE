@@ -20,7 +20,8 @@
 </div>
 
   ## Introduction 
-  This is the official implementation of our paper "Satellite Video Multi-Label Scene Classification With Spatial and Temporal Feature Cooperative Encoding: A Benchmark Dataset and Method".
+  This is the official implementation of our paper ["Satellite Video Multi-Label Scene Classification With Spatial and Temporal Feature Cooperative Encoding: A Benchmark Dataset and Method"](https://ieeexplore.ieee.org/document/10471306).
   
-  We develop the first publicly available and large-scale satellite video multi-label scene classification dataset.  It consists of 18 classes of static and dynamic ground contents, 3549 videos, and 141960 frames. We also propose a baseline method with the novel Spatial and Temporal Feature Cooperative Encoding (STFCE).
+  **<big>This is the first publicly available and large-scale satellite video multi-label scene classification dataset.</big>**  
+  It consists of 18 classes of static and dynamic ground contents, 3549 videos, and 141960 frames. We also propose a baseline method with the novel Spatial and Temporal Feature Cooperative Encoding (STFCE).
   
