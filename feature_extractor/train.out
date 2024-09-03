@@ -1,0 +1,52 @@
+WARNING:tensorflow:From extract_tfrecords_main.py:212: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From /home/chenfx/YouTube-8m/feature_extractor/feature_extractor.py:148: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+W1124 18:29:05.900107 22485614425920 module_wrapper.py:139] From /home/chenfx/YouTube-8m/feature_extractor/feature_extractor.py:148: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+2023-11-24 18:29:06.254753: W tensorflow/core/framework/op_def_util.cc:357] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+WARNING:tensorflow:From /home/chenfx/YouTube-8m/feature_extractor/feature_extractor.py:152: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W1124 18:29:06.410012 22485614425920 module_wrapper.py:139] From /home/chenfx/YouTube-8m/feature_extractor/feature_extractor.py:152: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-11-24 18:29:06.413989: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2023-11-24 18:29:06.871626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:81:00.0
+2023-11-24 18:29:06.880240: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2023-11-24 18:29:07.016314: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2023-11-24 18:29:07.113856: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2023-11-24 18:29:07.130035: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2023-11-24 18:29:07.316294: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2023-11-24 18:29:07.431194: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2023-11-24 18:29:07.714874: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2023-11-24 18:29:07.717665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2023-11-24 18:29:07.719012: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2023-11-24 18:29:07.771090: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394210000 Hz
+2023-11-24 18:29:07.772542: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a03674f400 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2023-11-24 18:29:07.772798: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2023-11-24 18:29:07.887103: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a0367dff00 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-11-24 18:29:07.887205: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): TITAN X (Pascal), Compute Capability 6.1
+2023-11-24 18:29:07.889253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:81:00.0
+2023-11-24 18:29:07.889331: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2023-11-24 18:29:07.889372: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2023-11-24 18:29:07.889408: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2023-11-24 18:29:07.889468: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2023-11-24 18:29:07.889508: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2023-11-24 18:29:07.889543: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2023-11-24 18:29:07.889578: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2023-11-24 18:29:07.891244: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2023-11-24 18:29:07.891716: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2023-11-24 18:29:07.895741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-11-24 18:29:07.895784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2023-11-24 18:29:07.896011: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2023-11-24 18:29:07.898234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11455 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:81:00.0, compute capability: 6.1)
+WARNING:tensorflow:From extract_tfrecords_main.py:150: The name tf.python_io.TFRecordWriter is deprecated. Please use tf.io.TFRecordWriter instead.
+
+W1124 18:29:07.957154 22485614425920 module_wrapper.py:139] From extract_tfrecords_main.py:150: The name tf.python_io.TFRecordWriter is deprecated. Please use tf.io.TFRecordWriter instead.
+
+2023-11-24 18:29:13.630830: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2023-11-24 18:29:13.991777: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+帧数 40
